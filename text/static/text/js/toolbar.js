@@ -103,6 +103,10 @@
                 $(selector).html(content_element.val());
             }
         });
+        session();
+    }
+
+    function session() {
         var session_changes = changes - sessions[sessions.length-1];
         if (session_changes > 0) {
             alert_message.text("Applied " + session_changes + " changes");
