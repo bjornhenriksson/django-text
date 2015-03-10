@@ -47,17 +47,17 @@
 }
 
 @-webkit-keyframes animation { 
-  0% {opacity: 0;}
-  25% {opacity: 1;}
-  75% {opacity: 1; -webkit-transform: translate( 0, 0);}
-  100% {opacity: 0; -webkit-transform: translate( 0, -2em);}
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    75% {opacity: 1; -webkit-transform: translate( 0, 0);}
+    100% {opacity: 0; -webkit-transform: translate( 0, -2em);}
 }
 
 @keyframes animation { 
-  0% {opacity: 0;}
-  25% {opacity: 1;}
-  75% {opacity: 1; transform: translate( 0, 0);}
-  100% {opacity: 0; transform: translate( 0, -2em);}
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    75% {opacity: 1; transform: translate( 0, 0);}
+    100% {opacity: 0; transform: translate( 0, -2em);}
 }
 
 #djtext_toolbar h3 {
